@@ -1,6 +1,6 @@
-# Chainlake Ingestion Engine
+# Blockchain Ingestion Engine
 
-`chainlake-ingestion-engine` is the core ingestion engine of **Chainlake**, designed for modern blockchain data infrastructure.
+`blockchain-ingestion-engine` is the core ingestion engine of **Chainlake**, designed for modern blockchain data infrastructure.
 
 It provides:
 
@@ -11,7 +11,7 @@ It provides:
 - Kafka-native downstream delivery
 - multi-chain extensibility (EVM + future non-EVM)
 
-Unlike traditional ETL-oriented blockchain extractors, `chainlake-ingestion-engine` is built for both:
+Unlike traditional ETL-oriented blockchain extractors, `blockchain-ingestion-engine` is built for both:
 * **continuous realtime semantic pipelines**
 * **large-scale historical data ingestion**
 
@@ -30,7 +30,7 @@ They are not optimized for:
 - Kafka-native stream processing
 - semantic data freshness
 
-`chainlake-ingestion-engine` solves both problems:
+`blockchain-ingestion-engine` solves both problems:
 ## Realtime
 Low-latency block ingestion for semantic freshness.
 
@@ -159,7 +159,7 @@ E2 --> F2
 
 # Project Structure
 ```text
-chainlake-ingestion-engine/
+blockchain-ingestion-engine/
 
 ├── cmd/
 │   └── cli.py
@@ -169,7 +169,7 @@ chainlake-ingestion-engine/
 │   ├── bsc.yaml
 │   └── sui.yaml
 
-├── chainlake_ingestion/
+├── blockchain_ingestion/
 
 │   ├── core/
 │   │   ├── scheduler.py
